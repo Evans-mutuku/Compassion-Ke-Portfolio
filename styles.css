@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+}
+
+header {
+    background-color: black ;
+    padding: 25px ;
+}
+
+nav{
+    text-align: center;
+}
+
+a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.home-section{
+    /* background-image: url("./Assets/image1.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+}
+
+
+.my-name{
+    font-size: 50px;
+    font-weight: bolder ;
+}
+
+.home-section > p{
+    font-size: 25px;
+}
+
+hr{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+i{
+    font-size: xx-large;
+    height: 60px;
+    width: 50px;
+}
+
+.about{
+    width: 60%;
+    margin: 50px auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+}
+
+.about > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.about-content{
+    width: 60%;
+}
+
+.about-content > h1{
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.about-content > p{
+    font-size: large;
+}
+
+
+.resume{
+    height: 50vh;
+    background-color: yellow;
+}
+
+.resume-content{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
